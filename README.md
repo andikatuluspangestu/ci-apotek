@@ -1,4 +1,7 @@
 
+![apotek](https://github.com/andikatuluspangestu/apotek/blob/main/assets/img/Screenshot%20from%202020-11-21%2014-42-45.png)
+
+
 ### 🎶 Pengenalan
 Sistem Administrasi Apotek merupakan sebuah aplikasi berbasis WEB yang dibuat untuk memudahkan pendataan Stok Produk Obat-obatan secara sederhana, mudah dan cepat. Dibuat dengan Framework PHP yaitu Codeigniter 3 dan Framework CSS Bootstrap 4.
 Aplikasi dan project ini dibuat untuk memenuhi Tugas Sekolah Mata Pelajaran Prakarya Dan Kewirausahaan SMK Negeri 1 Slawi.
