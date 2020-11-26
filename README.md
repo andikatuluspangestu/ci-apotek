@@ -1,10 +1,10 @@
 
 ### Pengenalan
-	Sistem Administrasi Apotek merupakan sebuah aplikasi berbasis WEB yang dibuat untuk memudahkan pendataan Stok Produk Obat-obatan secara sederhana, mudah dan cepat. Dibuat dengan Framework PHP yaitu Codeigniter 3 dan Framework CSS Bootstrap 4.
-	Aplikasi dan project ini dibuat untuk memenuhi Tugas Sekolah Mata Pelajaran Prakarya Dan Kewirausahaan SMK Negeri 1 Slawi.
+Sistem Administrasi Apotek merupakan sebuah aplikasi berbasis WEB yang dibuat untuk memudahkan pendataan Stok Produk Obat-obatan secara sederhana, mudah dan cepat. Dibuat dengan Framework PHP yaitu Codeigniter 3 dan Framework CSS Bootstrap 4.
+Aplikasi dan project ini dibuat untuk memenuhi Tugas Sekolah Mata Pelajaran Prakarya Dan Kewirausahaan SMK Negeri 1 Slawi.
 	
 ### Bagaimana saya berkontribusi?
-	Aplikasi ini Open Source dan tidak sepenuhnya saya buat sendiri Full Stack, namun beberapa orang telah berkontribusi dalam membangun aplikasi sederhana ini, jika kamu ingin berkontribusi dalam pengembangan untuk belajar silahkan Clone Repo ini dan Pull Requests.
+Aplikasi ini Open Source dan tidak sepenuhnya saya buat sendiri Full Stack, namun beberapa orang telah berkontribusi dalam membangun aplikasi sederhana ini, jika kamu ingin berkontribusi dalam pengembangan untuk belajar silahkan Clone Repo ini dan Pull Requests.
 	
 ### Fitur apakah yang tersedia?
 * Sistem Login
