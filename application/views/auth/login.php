@@ -11,35 +11,20 @@
 
 	<title>Apotek</title>
 
-	<!-- Custom fonts for this template-->
-	<link href="<?php echo base_url('assets/admin/') ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
-		type="text/css">
-	<link
-		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-		rel="stylesheet">
+	<!-- CDN Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	<!-- Custom styles for this template-->
-    <link href="<?php echo base_url('assets/admin/') ?>css/sb-admin-2.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="<?php echo base_url('assets/icon.svg') ?>" type="image/x-icon">
-    <style>
-    	.bg {
-    		background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(153,103,186,1) 41.2%, rgba(0,113,227,1) 90% );
-    	}
-    </style>
+	<link href="<?php echo base_url('assets/admin/') ?>css/sb-admin-2.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="<?php echo base_url('assets/icon.svg') ?>" type="image/x-icon">
+
 </head>
 
-<body class="bg">
-
+<body class="bg-primary">
 	<div class="container">
-
-
-
-
-		<!-- Outer Row -->
 		<div class="row justify-content-center">
-			<div class="col-xs-12">
-				<br><br><br><br><br><br>
-				<div class="card o-hidden border-0 shadow" style="border-radius: 2px;">
+			<div class="col-xs-12 pt-5">
+				<div class="card o-hidden rounded border-0 shadow mt-5">
 					<div class="card-body">
 						<div class="row">
 							<div class="col-lg-12">
@@ -47,23 +32,24 @@
 									<div class="text-center">
 										<h1 class="h4 text-gray-900 mb-4">Masuk</h1>
 									</div>
+
+									<!-- Alert -->
 									<?php if ($this->session->flashdata('info')) : ?>
-									<div class="alert alert-danger">
-										<?php echo $this->session->flashdata('info'); ?>
-									</div>
+										<div class="alert alert-danger">
+											<?php echo $this->session->flashdata('info'); ?>
+										</div>
 									<?php endif; ?>
-									<?php echo validation_errors('  <div class="alert alert-danger">', '</div>'); ?>
+
+									<!-- ALert Validasi Error -->
+									<?php echo validation_errors('<div class="alert alert-danger">', '</div>'); ?>
+
+									<!-- Form -->
 									<form class="user" method="POST" action="<?php echo site_url('auth/login') ?>">
 										<div class="form-group">
-											<input name="username" type="text" class="form-control form-control-user"
-												id="username" value="<?php  echo set_value('username') ?>"
-                                                autocomplete="off" placeholder="Username" style="border-radius: 10px;">
+											<input name="username" type="text" class="form-control form-control-user" id="username" value="<?php echo set_value('username') ?>" autocomplete="off" placeholder="Username" style="border-radius: 10px;">
 										</div>
 										<div class="form-group">
-											<input name="password" type="password"
-												value="<?php echo set_value('password') ?>"
-												class="form-control form-control-user" id="password"
-												placeholder="Kata Sandi" style="border-radius: 10px;">
+											<input name="password" type="password" value="<?php echo set_value('password') ?>" class="form-control form-control-user" id="password" placeholder="Kata Sandi" style="border-radius: 10px;">
 										</div>
 										<button type="submit" class="btn btn-primary btn-user btn-block">
 											Login
@@ -72,7 +58,6 @@
 								</div>
 							</div>
 						</div>
-						<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design With <span style="color: red;">&hearts;</span> by Sutrisno</span>
 					</div>
 				</div>
 				<br>

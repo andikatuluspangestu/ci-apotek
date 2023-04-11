@@ -3,7 +3,9 @@
 			<!-- Sidebar - Brand -->
 			<a class="sidebar-brand d-flex align-items-center justify-content-center"
 				href="<?php echo site_url('dashboard'); ?>">
-				<div class="sidebar-brand-text mx-3">APOTEK Administrator</div>
+				<div class="sidebar-brand-text mx-3">
+					MyFarmasi
+				</div>
 			</a>
 
 			<!-- Divider -->
